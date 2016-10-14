@@ -5,6 +5,7 @@
 //  Created by Roland Rabien on 2016-07-22.
 //  Copyright © 2016 Motus Design. All rights reserved.
 //
+#if TARGET_OS_IPHONE
 
 #import "MTSSimpleTableView.h"
 #import "MTSSimpleTableViewItem.h"
@@ -188,3 +189,5 @@
 }
 
 @end
+
+#endif
