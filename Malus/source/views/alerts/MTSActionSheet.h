@@ -5,6 +5,7 @@
 //  Created by Roland Rabien on 2016-05-12.
 //  Copyright © 2016 Motus Design. All rights reserved.
 //
+#if TARGET_OS_IPHONE
 
 #import <Foundation/Foundation.h>
 
@@ -20,3 +21,5 @@
 - (void)showFromView:(UIView*)view;
 
 @end
+
+#endif

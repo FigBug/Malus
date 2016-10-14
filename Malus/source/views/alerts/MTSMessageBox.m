@@ -5,6 +5,7 @@
 //  Created by Roland Rabien on 2016-05-12.
 //  Copyright © 2016 Motus Design. All rights reserved.
 //
+#if TARGET_OS_IPHONE
 
 #import "MTSMessageBox.h"
 #import <UIKit/UIKit.h>
@@ -27,3 +28,5 @@
 }
 
 @end
+
+#endif

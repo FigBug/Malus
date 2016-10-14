@@ -7,9 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7819770F1D4AA613000944C2 /* NSData+MTSData.h in Headers */ = {isa = PBXBuildFile; fileRef = 7819770D1D4AA613000944C2 /* NSData+MTSData.h */; };
+		7819770F1D4AA613000944C2 /* NSData+MTSData.h in Headers */ = {isa = PBXBuildFile; fileRef = 7819770D1D4AA613000944C2 /* NSData+MTSData.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		781977101D4AA613000944C2 /* NSData+MTSData.m in Sources */ = {isa = PBXBuildFile; fileRef = 7819770E1D4AA613000944C2 /* NSData+MTSData.m */; };
 		781977111D4AA667000944C2 /* NSData+MTSData.h in Headers */ = {isa = PBXBuildFile; fileRef = 7819770D1D4AA613000944C2 /* NSData+MTSData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7838C5091DB18D9700209C1A /* MTSMessageBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 787EA00D1D398222001B6161 /* MTSMessageBox.m */; };
+		7838C50A1DB18DA600209C1A /* MTSActionSheet.h in Headers */ = {isa = PBXBuildFile; fileRef = 787EA00A1D398222001B6161 /* MTSActionSheet.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7838C50B1DB18DAD00209C1A /* MTSActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 787EA00B1D398222001B6161 /* MTSActionSheet.m */; };
+		7838C50C1DB18DB000209C1A /* MTSMessageBox.h in Headers */ = {isa = PBXBuildFile; fileRef = 787EA00C1D398222001B6161 /* MTSMessageBox.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7874982D1C555A9300E403FC /* Malus.h in Headers */ = {isa = PBXBuildFile; fileRef = 7874982C1C555A9300E403FC /* Malus.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		787498DB1C555AF600E403FC /* slider-default-handle-highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = 7874983C1C555AF600E403FC /* slider-default-handle-highlighted.png */; };
 		787498DC1C555AF600E403FC /* slider-default-handle-highlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7874983D1C555AF600E403FC /* slider-default-handle-highlighted@2x.png */; };
@@ -295,7 +299,7 @@
 		787EA0111D398222001B6161 /* MTSActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 787EA00B1D398222001B6161 /* MTSActionSheet.m */; };
 		787EA0131D398222001B6161 /* MTSMessageBox.h in Headers */ = {isa = PBXBuildFile; fileRef = 787EA00C1D398222001B6161 /* MTSMessageBox.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		787EA0151D398222001B6161 /* MTSMessageBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 787EA00D1D398222001B6161 /* MTSMessageBox.m */; };
-		78D84E9B1D428C04002820A6 /* MTSSimpleTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = 78D84E991D428C04002820A6 /* MTSSimpleTableView.h */; };
+		78D84E9B1D428C04002820A6 /* MTSSimpleTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = 78D84E991D428C04002820A6 /* MTSSimpleTableView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		78D84E9C1D428C04002820A6 /* MTSSimpleTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 78D84E9A1D428C04002820A6 /* MTSSimpleTableView.m */; };
 		78D84E9D1D428E12002820A6 /* MTSSimpleTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 78D84E9A1D428C04002820A6 /* MTSSimpleTableView.m */; };
 		78D84E9E1D428E68002820A6 /* MTSSimpleTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = 78D84E991D428C04002820A6 /* MTSSimpleTableView.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -858,6 +862,7 @@
 				7874990B1C555AF600E403FC /* UIView+MTSRect.h in Headers */,
 				787499111C555AF600E403FC /* MTS2DArray.h in Headers */,
 				7874993D1C555AF600E403FC /* MTSProjection.h in Headers */,
+				7838C50C1DB18DB000209C1A /* MTSMessageBox.h in Headers */,
 				7874996B1C555EF300E403FC /* archive_entry.h in Headers */,
 				787499401C555AF600E403FC /* MTSMapQuestOSMTileProvider.h in Headers */,
 				7874995A1C555AF600E403FC /* MTSSimpleTableViewItemSwitch.h in Headers */,
@@ -877,7 +882,6 @@
 				787499441C555AF600E403FC /* MTSOpenCycleMapTileProvider.h in Headers */,
 				787499571C555AF600E403FC /* MTSSimpleTableViewItemProtocol.h in Headers */,
 				787499141C555AF600E403FC /* MTSLine.h in Headers */,
-				7819770F1D4AA613000944C2 /* NSData+MTSData.h in Headers */,
 				787499621C555AF600E403FC /* MTSTextItem.h in Headers */,
 				787499291C555AF600E403FC /* MTSRollingAverage.h in Headers */,
 				7874992B1C555AF600E403FC /* MTSTimer.h in Headers */,
@@ -897,18 +901,20 @@
 				7874991A1C555AF600E403FC /* MTSRect.h in Headers */,
 				7874991C1C555AF600E403FC /* MTSLocationManager.h in Headers */,
 				787499071C555AF600E403FC /* UIColor+MTSColor.h in Headers */,
+				7838C50A1DB18DA600209C1A /* MTSActionSheet.h in Headers */,
 				787499011C555AF600E403FC /* NSString+MTSString.h in Headers */,
 				7874994C1C555AF600E403FC /* MTSTileProvider.h in Headers */,
-				78D84E9B1D428C04002820A6 /* MTSSimpleTableView.h in Headers */,
 				787499461C555AF600E403FC /* MTSOpenCycleMapTransportTileProvider.h in Headers */,
 				7874995E1C555AF600E403FC /* MTSLabelSlider.h in Headers */,
 				787499391C555AF600E403FC /* MTSMapView.h in Headers */,
+				7819770F1D4AA613000944C2 /* NSData+MTSData.h in Headers */,
 				787499051C555AF600E403FC /* UIAlertView+MTSAlertView.h in Headers */,
 				787499581C555AF600E403FC /* MTSSimpleTableViewItemSlider.h in Headers */,
 				7874990D1C555AF600E403FC /* UIView+MTSView.h in Headers */,
 				787499311C555AF600E403FC /* MTSCPUMeter.h in Headers */,
 				7874994D1C555AF600E403FC /* MTSSimpleTableViewController.h in Headers */,
 				7874990F1C555AF600E403FC /* UIViewController+MTSViewController.h in Headers */,
+				78D84E9B1D428C04002820A6 /* MTSSimpleTableView.h in Headers */,
 				7874994A1C555AF600E403FC /* MTSStamenTerrainTileProvider.h in Headers */,
 				7874994F1C555AF600E403FC /* MTSSimpleTableViewGroup.h in Headers */,
 				787499181C555AF600E403FC /* MTSPoint.h in Headers */,
@@ -1151,6 +1157,7 @@
 				7874990E1C555AF600E403FC /* UIView+MTSView.m in Sources */,
 				787499631C555AF600E403FC /* MTSTextItem.m in Sources */,
 				787499221C555AF600E403FC /* MTSArchiveWritre.m in Sources */,
+				7838C50B1DB18DAD00209C1A /* MTSActionSheet.m in Sources */,
 				787499561C555AF600E403FC /* MTSSimpleTableViewItemDualSlider.m in Sources */,
 				787499491C555AF600E403FC /* MTSOSMTileProvider.m in Sources */,
 				787499411C555AF600E403FC /* MTSMapQuestOSMTileProvider.m in Sources */,
@@ -1185,6 +1192,7 @@
 				7874995F1C555AF600E403FC /* MTSLabelSlider.m in Sources */,
 				787499611C555AF600E403FC /* MTSTextGrid.m in Sources */,
 				787499341C555AF600E403FC /* MTSMapBaseView.m in Sources */,
+				7838C5091DB18D9700209C1A /* MTSMessageBox.m in Sources */,
 				787499241C555AF600E403FC /* MTSButterworthFilter.m in Sources */,
 				787499321C555AF600E403FC /* MTSCPUMeter.m in Sources */,
 				787499171C555AF600E403FC /* MTSPair.m in Sources */,

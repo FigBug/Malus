@@ -5,6 +5,7 @@
 //  Created by Roland Rabien on 2016-05-12.
 //  Copyright © 2016 Motus Design. All rights reserved.
 //
+#if TARGET_OS_IPHONE
 
 #import <Foundation/Foundation.h>
 
@@ -13,3 +14,5 @@
 + (void)messageBoxTitle:(NSString*)title message:(NSString*)msg button:(NSString*)button;
 
 @end
+
+#endif
