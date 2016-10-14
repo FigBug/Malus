@@ -1,0 +1,25 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "e74f6299-4461-46d8-a5a6-1a46debf2470++505",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "e74f6299-4461-46d8-a5a6-1a46debf2470++505" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "e74f6299-4461-46d8-a5a6-1a46debf2470++505" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "DEB2D63A-C937-4940-B250-D88EFBE301FE",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "e74f6299-4461-46d8-a5a6-1a46debf2470++505" : "motus\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Malus",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "libraries\/Malus\/Malus.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/motusdesign.ca\/motus",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "e74f6299-4461-46d8-a5a6-1a46debf2470++505"
+    }
+  ]
+}

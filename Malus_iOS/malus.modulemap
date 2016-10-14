@@ -1,0 +1,6 @@
+framework module Malus {
+    umbrella header "Malus.h"
+    
+    export *
+    module * { export * }
+}
