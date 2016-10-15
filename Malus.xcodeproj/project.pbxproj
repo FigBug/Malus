@@ -1373,7 +1373,7 @@
 					"$(PROJECT_DIR)/Malus/dependencies/libarc",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				PRODUCT_BUNDLE_IDENTIFIER = ca.motusdesign.Malus;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rabiensoftware.Malus;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -1396,7 +1396,7 @@
 					"$(PROJECT_DIR)/Malus/dependencies/libarc",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				PRODUCT_BUNDLE_IDENTIFIER = ca.motusdesign.Malus;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rabiensoftware.Malus;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -1418,7 +1418,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = Malus_iOS/malus.modulemap;
 				ONLY_ACTIVE_ARCH = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = "ca.motusdesign.Malus-iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rabiensoftware.Malus-iOS";
 				PRODUCT_NAME = Malus;
 				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
@@ -1442,7 +1442,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = Malus_iOS/malus.modulemap;
-				PRODUCT_BUNDLE_IDENTIFIER = "ca.motusdesign.Malus-iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rabiensoftware.Malus-iOS";
 				PRODUCT_NAME = Malus;
 				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;

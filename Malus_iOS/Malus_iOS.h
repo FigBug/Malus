@@ -3,7 +3,7 @@
 //  Malus_iOS
 //
 //  Created by Roland Rabien on 2016-01-24.
-//  Copyright © 2016 Motus Design. All rights reserved.
+//  Copyright © 2016 Roland Rabien Design. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
