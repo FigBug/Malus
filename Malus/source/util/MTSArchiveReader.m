@@ -6,6 +6,7 @@
 //  Copyright (c) 2013 Roland Rabien. All rights reserved.
 //
 
+#if TARGET_OS_IPHONE
 #import "MTSArchiveReader.h"
 #import "archive.h"
 #import "archive_entry.h"
@@ -80,3 +81,4 @@
 }
 
 @end
+#endif

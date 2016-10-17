@@ -7,6 +7,7 @@
 //
 #import <Foundation/Foundation.h>
 
+#if TARGET_OS_IPHONE
 @interface MTSArchiveReader : NSObject {
     NSString* srcPath;
 }
@@ -16,3 +17,5 @@
 - (BOOL)extractToPath:(NSString*)dstPath;
 
 @end
+
+#endif

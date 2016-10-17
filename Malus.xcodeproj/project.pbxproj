@@ -152,7 +152,6 @@
 		787499611C555AF600E403FC /* MTSTextGrid.m in Sources */ = {isa = PBXBuildFile; fileRef = 787498D41C555AF600E403FC /* MTSTextGrid.m */; };
 		787499621C555AF600E403FC /* MTSTextItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 787498D51C555AF600E403FC /* MTSTextItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		787499631C555AF600E403FC /* MTSTextItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 787498D61C555AF600E403FC /* MTSTextItem.m */; };
-		787499651C555D9400E403FC /* libarchive.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 787499641C555D9400E403FC /* libarchive.tbd */; };
 		7874996A1C555EF300E403FC /* archive.h in Headers */ = {isa = PBXBuildFile; fileRef = 787499671C555EF300E403FC /* archive.h */; };
 		7874996B1C555EF300E403FC /* archive_entry.h in Headers */ = {isa = PBXBuildFile; fileRef = 787499681C555EF300E403FC /* archive_entry.h */; };
 		7874996C1C555EF300E403FC /* bzlib.h in Headers */ = {isa = PBXBuildFile; fileRef = 787499691C555EF300E403FC /* bzlib.h */; };
@@ -471,7 +470,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				787499651C555D9400E403FC /* libarchive.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

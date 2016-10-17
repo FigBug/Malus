@@ -5,7 +5,7 @@
 //  Created by Roland Rabien on 2013-09-03.
 //  Copyright (c) 2013 Roland Rabien. All rights reserved.
 //
-
+#if TARGET_OS_IPHONE
 #import "MTSArchiveWriter.h"
 #import "archive.h"
 #import "archive_entry.h"
@@ -90,3 +90,4 @@
 }
 
 @end
+#endif

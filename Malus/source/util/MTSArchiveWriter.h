@@ -7,6 +7,7 @@
 //
 #import <Foundation/Foundation.h>
 
+#if TARGET_OS_IPHONE
 @interface MTSArchiveWriter : NSObject {
     NSMutableArray* srcFiles;
     NSMutableArray* dstFiles;
@@ -21,3 +22,4 @@
 - (BOOL)write;
 
 @end
+#endif
