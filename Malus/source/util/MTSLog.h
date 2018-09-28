@@ -11,11 +11,11 @@ extern "C" {
     
 #import <Foundation/Foundation.h>
 
-void MTSLogOpen();
+void MTSLogOpen(void);
     
-void MTSLogClose();
+void MTSLogClose(void);
     
-void MTSLogClear();
+void MTSLogClear(void);
     
 void MTSLog(NSString* format, ...);
 

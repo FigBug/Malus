@@ -12,7 +12,7 @@
 static FILE* fp = NULL;
 static NSString* syncer = @"mutex";
 
-void MTSLogOpen()
+void MTSLogOpen(void)
 {
     if (!fp)
     {
@@ -21,7 +21,7 @@ void MTSLogOpen()
     }
 }
 
-void MTSLogClose()
+void MTSLogClose(void)
 {
     if (fp)
     {
@@ -30,7 +30,7 @@ void MTSLogClose()
     }
 }
 
-void MTSLogClear()
+void MTSLogClear(void)
 {
     NSString* path = [[MTSDefaults logDir] stringByAppendingPathComponent:@"log.txt"];
     [[NSFileManager defaultManager] removeItemAtPath:path error:nil];
