@@ -5,7 +5,7 @@
 //  Copyright Matt Rajca 2010. All rights reserved.
 //
 
-#import "MTSTileProvider.h"
+#import <Malus/MTSTileProvider.h>
 
 /* An OpenStreetMap tile provider */
 
