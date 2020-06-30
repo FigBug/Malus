@@ -7,7 +7,7 @@
 #import <Foundation/Foundation.h>
 #import <CoreImage/CoreImage.h>
 
-#import "MTSMapTypes.h"
+#import <Malus/MTSMapTypes.h>
 
 @protocol MTSProjection <NSObject>
 

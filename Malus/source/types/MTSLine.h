@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 #import <CoreImage/CoreImage.h>
 
-#import "MTSPoint.h"
+#import <Malus/MTSPoint.h>
 
 @interface MTSLine : NSObject<NSCopying,NSCoding> {
     CGPoint pt1;

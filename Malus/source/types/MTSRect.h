@@ -7,7 +7,7 @@
 #import <Foundation/Foundation.h>
 #import <CoreImage/CoreImage.h>
 
-#import "MTSPoint.h"
+#import <Malus/MTSPoint.h>
 
 @interface MTSRect : NSObject<NSCopying,NSCoding> {
     CGRect rc;

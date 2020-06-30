@@ -6,7 +6,7 @@
 //  Copyright © 2016 Roland Rabien Design. All rights reserved.
 //
 #ifdef __APPLE__
-#include "TargetConditionals.h"
+#include <TargetConditionals.h>
 #ifdef TARGET_OS_IPHONE
 #import <Foundation/Foundation.h>
 #elif TARGET_IPHONE_SIMULATOR
