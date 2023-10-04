@@ -1395,7 +1395,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Malus/dependencies/libarc",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.rabiensoftware.Malus;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1419,7 +1419,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Malus/dependencies/libarc",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.rabiensoftware.Malus;
 				PRODUCT_NAME = "$(TARGET_NAME)";
