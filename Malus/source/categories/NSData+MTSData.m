@@ -3,7 +3,7 @@
 //  Malus
 //
 //  Created by Roland Rabien on 2016-07-28.
-//  Copyright © 2016 Roland Rabien Design. All rights reserved.
+//  Copyright © 2016 Roland Rabien. All rights reserved.
 //
 
 #import "NSData+MTSData.h"

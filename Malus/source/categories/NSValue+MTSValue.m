@@ -3,7 +3,7 @@
 //  Malus
 //
 //  Created by Roland Rabien on 2016-01-24.
-//  Copyright © 2016 Roland Rabien Design. All rights reserved.
+//  Copyright © 2016 Roland Rabien. All rights reserved.
 //
 #import <Foundation/Foundation.h>
 #if ! TARGET_OS_IPHONE

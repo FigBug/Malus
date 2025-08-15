@@ -3,9 +3,9 @@
 //  Malus
 //
 //  Created by Roland Rabien on 2016-07-22.
-//  Copyright © 2016 Roland Rabien Design. All rights reserved.
+//  Copyright © 2016 Roland Rabien. All rights reserved.
 //
-#ifdef TARGET_OS_IPHONE
+#if TARGET_OS_IPHONE
 
 #import "MTSSimpleTableView.h"
 #import "MTSSimpleTableViewItem.h"
