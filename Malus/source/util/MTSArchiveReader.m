@@ -6,6 +6,7 @@
 //  Copyright (c) 2013 Roland Rabien. All rights reserved.
 //
 
+#include <TargetConditionals.h>
 #if TARGET_OS_IPHONE
 #import "MTSArchiveReader.h"
 #import "archive.h"

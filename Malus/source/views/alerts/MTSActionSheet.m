@@ -5,6 +5,7 @@
 //  Created by Roland Rabien on 2016-05-12.
 //  Copyright © 2016 Roland Rabien. All rights reserved.
 //
+#include <TargetConditionals.h>
 #if TARGET_OS_IPHONE
 
 #import <UIKit/UIKit.h>
