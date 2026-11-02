@@ -281,14 +281,13 @@
 
 + (BOOL)encodeObject:(id<NSCoding>)object toFile:(NSString *)fileName
 {
-    NSMutableData* data = [[NSMutableData alloc] init];
-    
-    NSKeyedArchiver* archiver = [[NSKeyedArchiver alloc] initForWritingWithMutableData:data];
+    NSKeyedArchiver* archiver = [[NSKeyedArchiver alloc] initRequiringSecureCoding:NO];
     [archiver setOutputFormat:NSPropertyListBinaryFormat_v1_0];
     
     [archiver encodeObject: object forKey:kEncodedObject];
     [archiver finishEncoding];
     
+    NSData* data = [archiver encodedData];
     if ([data writeToFile: fileName atomically:YES])
         return YES;
     else
@@ -302,9 +301,10 @@
         NSData* data = [NSData dataWithContentsOfFile:fileName];        
         if (data)
         {
-            NSKeyedUnarchiver* unarchiver = [[NSKeyedUnarchiver alloc] initForReadingWithData:data];
+            NSKeyedUnarchiver* unarchiver = [[NSKeyedUnarchiver alloc] initForReadingFromData:data error:nil];
             if (unarchiver)
             {
+                [unarchiver setRequiresSecureCoding:NO];
                 @try
                 {
                     return [unarchiver decodeObjectForKey:kEncodedObject];
